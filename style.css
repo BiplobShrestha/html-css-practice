@@ -1,18 +1,16 @@
-*{
-    color: blue;
+p{
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    font-family: cursive;
+    line-height: 20px;
+    text-transform: capitalized;
 }
 h1{
-    color: green;
+    text-align: center;
+    text-decoration: line-through;
+    font-family: cursive;
 }
-button{
-    color: brown;
-}
-#headingOne{
-    color: aquamarine;
-}
-#headingTwo{
-    color: chocolate;
-}
-.myClass{
-    color: mediumvioletred;
+a{
+    text-decoration: none;
 }
