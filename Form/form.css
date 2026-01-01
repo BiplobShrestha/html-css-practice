@@ -3,7 +3,7 @@
     font-weight: 900;
     text-align: center;
     color: blue;
-    background-color: aqua;
+    background-color: rgb(212, 18, 50);
 }
 #form{
     text-align: center;
@@ -12,6 +12,10 @@
     font-family: cursive;
     text-align: center;
     font-weight: 200;
+    color: black;
+}
+fieldset{
+    color: rgba(199, 102, 102, 1);
 }
 #box2{
     font-family: cursive;
@@ -26,7 +30,7 @@
     text-align: center;
 }
 *{
-    background-color: rgb(250, 229, 229);
+    background-color: rgb(0, 0, 0);
     background-image: none;
 }
 #button{

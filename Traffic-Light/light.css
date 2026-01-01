@@ -1,0 +1,31 @@
+#maindiv{
+    height: 250px;
+    width: 90px;
+    border: 5px solid black;
+    background-color: grey;
+    margin-left: 680px;
+}
+#div1{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: red;
+    margin: 10px 0px 10px 20px;
+}
+#div2{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: yellow;
+    margin: 10px 0px 10px 20px;
+}
+#div3{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: green;
+    margin: 10px 0px 10px 20px;
+}
+h1{
+    text-align: center;
+}
