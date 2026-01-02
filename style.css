@@ -1,18 +1,9 @@
-div{
-    height: 100px;
-    background-color: blanchedalmond;
-    width: 100px;
-    border: 5px dashed red;
-    text-align: right;
-    padding-bottom: 20px;
-    padding-right: 20px;
+
+.box2{
+    display: none;
+    visibility: none;
 }
-h1{
-    width: 200px;
-    height: 50px;
-    background-color: blanchedalmond;
-    border: 5px solid blue;
-    text-align: left;
-    border-radius: 10px;
+#bips{
+    color: rgba(255, 0, 0, 0.5);
+    background-color:rgba(91, 91, 149,0.5);
 }
- 

@@ -15,9 +15,25 @@ button{
     color: #f08804;
     font-size: 25px;
     text-decoration: none;
-}`
+}
 a{
     margin-right:200px;
     text-decoration: none;
     color: white;
+}
+#box1{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(20, 217, 56,0.8);
+    margin-top: 4px;
+}
+#box2{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(255,0,0,0.75);
+}
+#box3{
+    width: 100px;
+    height: 100px;
+    background-color: rgba(215, 215, 0,0.6);
 }

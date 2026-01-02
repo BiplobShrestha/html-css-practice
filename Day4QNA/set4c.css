@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#box1{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(16, 150, 150,0.5);
+    margin: 5px;
+}
+#box2{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(98, 1, 225, 0.5);
+    margin: 5px;
+}
+#box3{
+    height: 100px;
+    width: 100px;
+    background-color: rgba(246, 209, 0, 0.5);
+    margin: 5px;
+}
