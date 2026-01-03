@@ -1,9 +1,12 @@
-
-.box2{
-    display: none;
-    visibility: none;
+div{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: inline-block;
+    height: 100px;
+    width: 100px;
 }
-#bips{
-    color: rgba(255, 0, 0, 0.5);
-    background-color:rgba(91, 91, 149,0.5);
+
+#box1{
+    background-image: url(city.jpg);
+    background-size: auto;
 }
