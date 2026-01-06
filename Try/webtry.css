@@ -1,0 +1,90 @@
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: cadetblue;
+    
+}
+
+.logo{
+    height: 50px;
+    width: 80px;
+}
+nav{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+nav ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;    
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding: 5px 10px;
+    transition: color 0.3s,
+background-color 0.3s;
+}
+nav ul li a:hover{
+    color: white;
+    background-color: red;
+}
+
+#heading{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 900;
+    text-align: center;
+    color: blue;
+    background-color: rgb(111, 199, 130);
+}
+#form{
+    text-align: center;
+}
+.box1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 200;
+    color: black;
+}
+fieldset{
+    color: rgb(0, 0, 0);
+}
+#box2{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-weight: 250;
+    font-size: 20px;
+}
+.box3{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#date{
+    text-align: center;
+}
+*{
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+}
+#button{
+    color:blue;
+    background-color: rgb(239, 119, 181);
+    block-size: 30px;
+    margin-block-start: 20px;
+}  
+#finish{
+    text-align: center;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif;
+    color: chocolate;
+}
