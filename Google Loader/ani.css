@@ -1,0 +1,51 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(127, 255, 212, 0.309);
+}
+.wrapper{
+    display: flex;
+    column-gap: 10px;
+}
+.wrapper .dot{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    box-shadow: 0 6px 10px rgba(255, 255, 255, 0.107);
+    animation: animate 1s ease-in-out infinite alternate;
+}
+.dot:nth-child(1){
+    background-color: rgb(0, 157, 255);
+    animation-delay: -0.25s;
+}   
+.dot:nth-child(2){
+    background-color: red;
+    animation-delay: -0.5s;
+}
+.dot:nth-child(3){
+    background-color: yellow;
+    animation-delay: -0.75s;
+}
+.dot:nth-child(4){
+    background-color: green;
+    animation-delay: -1s;
+}
+@keyframes animate{
+    0%{
+        transform: translateY(-10px);
+    }
+}
+@keyframes animate{
+    100%{
+        transform: translateY(10px);
+    }
+}
