@@ -48,7 +48,7 @@ body{
 }
 .profile-card .media-links{
     display: flex;
-    align-items: center;
+    align-items: center;    
     margin-top: 15px;
 }
 .media-links .link{
